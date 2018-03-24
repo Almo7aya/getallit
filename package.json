@@ -4,7 +4,9 @@
   "description": "A simple proxy app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "./node_modules/.bin/nodemon server.js",
+    "start": "server.js",
+    "test": ""
   },
   "repository": {
     "type": "git",
