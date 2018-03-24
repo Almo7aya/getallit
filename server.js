@@ -1,3 +1,6 @@
+// the main server file
+
+const chalk = require('chalk');
 
 const { app } = require('./app');
 
@@ -7,8 +10,4 @@ const port = process.env.PORT || 3000;
 app.set('port', port);
 
 
-app.listen(port, () => console.log(`The server is running at port ${port}`));
-
-app.on('error', error => {
-    console.log(error);
-});
+app.listen(port, () => console.log(`${chalk.green('✓')} The server is running at port ${port}`));

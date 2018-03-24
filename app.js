@@ -8,7 +8,7 @@ const CORS = require('cors');
 app.use(CORS());
 
 // setting the proxy configs
-app.use('/proxy');
+// app.use('/proxy');
 
 // set the routes 
 app.get('/');
