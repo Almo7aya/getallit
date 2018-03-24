@@ -2,10 +2,10 @@
   "name": "getallit",
   "version": "0.0.1",
   "description": "A simple proxy app",
-  "main": "server.js",
+  "main": "server",
   "scripts": {
     "start:dev": "./node_modules/.bin/nodemon server.js",
-    "start": "server.js",
+    "start": "server",
     "test": ""
   },
   "repository": {
