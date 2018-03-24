@@ -1,0 +1,27 @@
+{
+  "name": "getallit",
+  "version": "0.0.1",
+  "description": "A simple proxy app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Almo7aya/getallit.git"
+  },
+  "keywords": [
+    "proxy",
+    "block",
+    "nodejs"
+  ],
+  "author": "Ali Almohaya <alialmohaya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Almo7aya/getallit/issues"
+  },
+  "homepage": "https://github.com/Almo7aya/getallit#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
