@@ -9,7 +9,7 @@ const proxy = require('http-proxy-middleware');
  */
 const mainProxy = (app) => {
     app.use('/proxy', proxy({
-        onProxyReq: onMainProxyReq,
+        // onProxyReq: onMainProxyReq,
         target: 'https://google.com'
     }));
 };
@@ -17,7 +17,7 @@ const mainProxy = (app) => {
 
 const onMainProxyReq = (proxyReq, req, res) => {
     const requstedUrl = req.query.url;
-    proxyReq.path - requstedUrl;
+    proxyReq.path = requstedUrl;
 };
 
 module.exports = {
