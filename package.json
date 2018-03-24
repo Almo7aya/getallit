@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Almo7aya/getallit#readme",
   "dependencies": {
+    "chalk": "^2.3.2",
     "cors": "^2.8.4",
     "ejs": "^2.5.7",
     "express": "^4.16.3",
