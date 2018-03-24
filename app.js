@@ -4,6 +4,8 @@ const express = require('express');
 const app = express();
 const CORS = require('cors');
 
+const index = require('./routes/index');
+
 // setting the CORS middle-ware
 app.use(CORS());
 
@@ -11,7 +13,7 @@ app.use(CORS());
 // app.use('/proxy');
 
 // set the routes 
-app.get('/');
+app.get('/', index);
 
 module.exports = {
     app
