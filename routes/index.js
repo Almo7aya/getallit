@@ -1,5 +1,5 @@
 module.exports = (req, res) => {
 
-    res.sendStatus(200).end('DONE123');
+    res.status(200).end('DONE123');
 
 };
