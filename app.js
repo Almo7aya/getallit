@@ -15,7 +15,7 @@ app.use(CORS());
 mainProxy(app);
 
 // set the routes 
-app.get('/', index);
+// app.get('/', index);
 
 module.exports = {
     app
