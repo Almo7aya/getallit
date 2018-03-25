@@ -9,8 +9,7 @@ const proxy = require('http-proxy-middleware');
  */
 const mainProxy = (app) => {
     app.use('/', proxy({
-        target: 'https://www.xnxx.com',
-        changeOrigin: false
+        target: 'http://www.sex.com',
     }));
 };
 
