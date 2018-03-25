@@ -22,7 +22,7 @@ app.use(CORS());
 app.get('**', (req, client_res) => {
 
     var options = {
-        hostname: 'www.google.com',
+        hostname: 'www.facebook.com',
         port: 80,
         path: req.url,
         method: 'GET'
