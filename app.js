@@ -3,7 +3,7 @@
 const express = require('express');
 const app = express();
 const CORS = require('cors');
-const http = require('http');
+const http = require('https');
 
 const { mainProxy } = require('./utils/proxy.config');
 
@@ -22,8 +22,8 @@ app.use(CORS());
 app.get('**', (req, client_res) => {
 
     var options = {
-        hostname: 'www.facebook.com',
-        port: 80,
+        hostname: 'sex.com',
+        port: 443,
         path: req.url,
         method: 'GET'
       };
